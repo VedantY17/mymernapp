@@ -1,0 +1,257 @@
+[
+    {
+        "CategoryName": "Flagship Smartphones",
+        "Brand": "Samsung",
+        "Model": "Galaxy S23 Ultra",
+        "Img": "https://m.media-amazon.com/images/I/51hqXIAVXAL._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "800"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "1000"
+            }
+        ],
+        "Description": "The Samsung Galaxy S23 ultra is a flagship smartphone with a powerful camera, high-performance hardware, and a stunning display."
+    },
+    {
+        "CategoryName": "Flagship Smartphones",
+        "Brand": "Apple",
+        "Model": "iPhone 15",
+        "Img": "https://m.media-amazon.com/images/I/71xb2xkN5qL._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "900"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "1100"
+            }
+        ],
+        "Description": "The iPhone 15 is Apple's latest offering, featuring a sleek design, A15 Bionic chip, and advanced camera capabilities."
+    },
+    {
+        "CategoryName": "Flagship Smartphones",
+        "Brand": "Google",
+        "Model": "Pixel 8 5G",
+        "Img": "https://m.media-amazon.com/images/I/51mx-T5uZAL.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "900"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "1100"
+            }
+        ],
+        "Description": "The Google Pixel 8 5G boasts a superior camera system, high-refresh-rate display, and the latest Android experience."
+    },
+    {
+        "CategoryName": "Flagship Smartphones",
+        "Brand": "Sony",
+        "Model": "Xperia 5 III",
+        "Img": "https://m.media-amazon.com/images/I/41ouToOVElS.jpg",
+        "Options": [
+            {
+                "Storage": "256GB",
+                "Price": "1200"
+            },
+            {
+                "Storage": "512GB",
+                "Price": "1500"
+            }
+        ],
+        "Description": "The Sony Xperia 5 III is a compact flagship smartphone with advanced camera features, a 120Hz display, and powerful performance."
+    },
+    {
+        "CategoryName": "Mid-Range Smartphones",
+        "Brand": "OnePlus",
+        "Model": "OnePlus 9",
+        "Img": "https://m.media-amazon.com/images/I/41iiRrNUMTL._SX300_SY300_QL70_FMwebp_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "750"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "950"
+            }
+        ],
+        "Description": "The OnePlus 9 combines powerful performance with a smooth user experience, thanks to its high-refresh-rate display and top-tier specifications."
+    },
+    {
+        "CategoryName": "Mid-Range Smartphones",
+        "Brand": "Xiaomi",
+        "Model": "Redmi 12 5G",
+        "Img": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+        "Options": [
+            {
+                "Storage": "64GB",
+                "Price": "300"
+            },
+            {
+                "Storage": "128GB",
+                "Price": "350"
+            }
+        ],
+        "Description": "The Redmi 12 5G is a feature-packed mid-range smartphone with a high-refresh-rate display, large battery, and impressive camera capabilities."
+    },
+    {
+        "CategoryName": "Mid-Range Smartphones",
+        "Brand": "Samsung",
+        "Model": "Galaxy A54",
+        "Img": "https://m.media-amazon.com/images/I/61EMydHNl-L._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "400"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "450"
+            }
+        ],
+        "Description": "The Samsung Galaxy A54 is a stylish mid-range smartphone known for its AMOLED display, water resistance, and versatile camera system."
+    },
+    {
+        "CategoryName": "Mid-Range Smartphones",
+        "Brand": "Motorola",
+        "Model": "Moto G84 5G",
+        "Img": "https://m.media-amazon.com/images/I/41SAnNf6SmL._SX300_SY300_QL70_FMwebp_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "350"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "400"
+            }
+        ],
+        "Description": "The Moto G84 5G is a mid-range smartphone with 5G connectivity, a built-in stylus, and a large display, ideal for productivity."
+    },
+    {
+        "CategoryName": "Budget Smartphones",
+        "Brand": "Motorola",
+        "Model": "Moto G04 5G",
+        "Img": "https://m.media-amazon.com/images/I/41+FcPqym7L._SY300_SX300_.jpg",
+        "Options": [
+            {
+                "Storage": "64GB",
+                "Price": "250"
+            },
+            {
+                "Storage": "128GB",
+                "Price": "300"
+            }
+        ],
+        "Description": "The Moto G04 5G is known for its long-lasting battery life, offering a budget-friendly option with solid performance."
+    },
+    {
+        "CategoryName": "Budget Smartphones",
+        "Brand": "Realme",
+        "Model": "C11",
+        "Img": "https://m.media-amazon.com/images/I/41+FcPqym7L._SY300_SX300_.jpg",
+        "Options": [
+            {
+                "Storage": "32GB",
+                "Price": "110"
+            },
+            {
+                "Storage": "64GB",
+                "Price": "130"
+            }
+        ],
+        "Description": "The Realme C11 is a budget smartphone known for its stylish design, dual-camera setup, and affordable price."
+    },
+    {
+        "CategoryName": "Budget Smartphones",
+        "Brand": "Nokia",
+        "Model": "Nokia 2.4",
+        "Img": "https://m.media-amazon.com/images/I/71KoXfQOjYL._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "32GB",
+                "Price": "90"
+            },
+            {
+                "Storage": "64GB",
+                "Price": "110"
+            }
+        ],
+        "Description": "The Nokia 2.4 is a budget-friendly smartphone with a large display, clean Android experience, and a durable build."
+    },
+    {
+        "CategoryName": "Budget Smartphones",
+        "Brand": "Infinix",
+        "Model": "Hot 10",
+        "Img": "https://m.media-amazon.com/images/I/31+gv3EaWTL.jpg",
+        "Options": [
+            {
+                "Storage": "64GB",
+                "Price": "120"
+            },
+            {
+                "Storage": "128GB",
+                "Price": "140"
+            }
+        ],
+        "Description": "The Infinix Hot 10 is a budget smartphone offering a large display, impressive battery life, and multiple camera lenses at an affordable price."
+    },
+    {
+        "CategoryName": "Camera-Centric Smartphones",
+        "Brand": "MI",
+        "Model": "Xiaomi Mi 11X 5G",
+        "Img": "https://m.media-amazon.com/images/I/81PQCRubagS._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "128GB",
+                "Price": "700"
+            },
+            {
+                "Storage": "256GB",
+                "Price": "850"
+            }
+        ],
+        "Description": "The Xiaomi Mi 11x is a feature-packed smartphone with a high-resolution display, powerful processor, and versatile camera system."
+    },
+    {
+        "CategoryName": "Camera-Centric Smartphones",
+        "Brand": "Honor",
+        "Model": "X9b 5G",
+        "Img": "https://m.media-amazon.com/images/I/412b96NZ3OL._SX300_SY300_QL70_FMwebp_.jpg",
+        "Options": [
+            {
+                "Storage": "256GB",
+                "Price": "1300"
+            },
+            {
+                "Storage": "512GB",
+                "Price": "1500"
+            }
+        ],
+        "Description": "The Honor X9b 5G is a camera-centric smartphone with an advanced camera setup, high-quality optics, and powerful imaging capabilities."
+    },
+    {
+        "CategoryName": "Camera-Centric Smartphones",
+        "Brand": "Oppo",
+        "Model": "F25 Pro",
+        "Img": "https://m.media-amazon.com/images/I/810HI-4wV+L._SX679_.jpg",
+        "Options": [
+            {
+                "Storage": "256GB",
+                "Price": "1400"
+            },
+            {
+                "Storage": "512GB",
+                "Price": "1600"
+            }
+        ],
+        "Description": "The Oppo F25 Pro is a camera-centric smartphone with advanced imaging capabilities, a sleek design, and a vibrant display."
+    }
+]

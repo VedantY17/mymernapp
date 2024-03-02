@@ -4,7 +4,12 @@ export default function Card() {
   return (
     <div>
       <div className="card mt-3" style={{ width: "18rem", maxHeight: "360px" }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img
+          src="https://source.unsplash.com/random/?biryani"
+          className="card-img-top"
+          alt="..."
+          style={{ maxHeight: "220px" }}
+        />
         <div className="card-body">
           <p className="card-text">Some important text</p>
           <div className="container w-100">
