@@ -80,5 +80,13 @@ body {
 
 
 #carousel-image{
-  max-height: 500px;
+  max-height: 530px;
+}
+
+#carouselExampleControls{
+  object-fit: contain !important;
+}
+
+.carousel-item {
+  transition: transform 0.1ms ease-in-out;
 }

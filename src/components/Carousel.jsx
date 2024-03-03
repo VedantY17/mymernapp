@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Carousel() {
   return (
@@ -8,37 +7,50 @@ export default function Carousel() {
         id="carouselExampleControls"
         className="carousel slide"
         data-ride="carousel"
-        style={{ objectFit: "contain" }}
       >
         <div className="carousel-inner" id="carousel-image">
+          <div className="carousel-caption" style={{zIndex:"10"}}>
+            <form className="d-flex">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+
           <div className="carousel-item active">
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/random/1000×700/?doctors"
+              src="https://source.unsplash.com/random/1000×700/?smartphones"
               alt="First slide"
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(50%)" }}
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/random/1000×700/?medicines"
+              src="https://source.unsplash.com/random/1000×700/?mobilephones"
               alt="second slide"
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(50%)" }}
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/random/1000×700/?injections"
+              src="https://source.unsplash.com/random/1000×700/?phones"
               alt="Third slide"
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(50%)" }}
             />
           </div>
         </div>
-        <Link
+        <a
           className="carousel-control-prev"
-          to="#carouselExampleControls"
+          href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
@@ -46,10 +58,10 @@ export default function Carousel() {
             className="carousel-control-prev-icon"
             aria-hidden="true"
           ></span>
-        </Link>
-        <Link
+        </a>
+        <a
           className="carousel-control-next"
-          to="#carouselExampleControls"
+          href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
@@ -57,7 +69,7 @@ export default function Carousel() {
             className="carousel-control-next-icon"
             aria-hidden="true"
           ></span>
-        </Link>
+        </a>
       </div>
     </div>
   );
