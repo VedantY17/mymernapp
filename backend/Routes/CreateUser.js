@@ -4,7 +4,7 @@ const User = require('../models/User')
 const { body, validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
-const jwtSecret = "MyNameIsDevilThalaFan@07"
+const jwtSecret = "MyNameIsDevilGrootAThalaFanCSK$#"
 
 
 router.post("/createuser", [
@@ -58,9 +58,6 @@ router.post("/loginuser", [
                 return res.status(400).json({ errors: "Check your email properly. " });
             }
 
-            console.log("Hashed Password from Database:", userData.password);
-            console.log("Hashed Password from Login Request:", pass);
-
             const pwdCompare = await bcrypt.compare(pass, userData.password);
             if (!pwdCompare) {
                 console.log("Password comparison failed.");
@@ -74,7 +71,7 @@ router.post("/loginuser", [
             }
 
             const authToken = jwt.sign(tokenPayload, jwtSecret)
-            return res.json({ success: true, authToken });
+            return res.json({ success: true, authToken: authToken });
 
         } catch (error) {
             console.log(error)
