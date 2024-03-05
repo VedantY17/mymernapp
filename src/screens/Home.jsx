@@ -42,8 +42,31 @@ export default function Home() {
     <div>
       <div><Navbar /></div>
       <div><Carousel /></div>
-      <div className="m-3">
-        <Card />
+      <div className="container">
+        {
+          phoneCat !== []
+            ? phoneCat.map((data) => {
+              return (<div className="row mb-3">
+                <div key={data._id} className="fs-3 m-3">
+                  {data.CategoryName}
+                </div>
+                <hr />
+                {phones !== []
+                  ?
+                  phones.filter((item) => item.CategoryName === data.CategoryName)
+                    .map(filterItems => {
+                      return (
+                        <div key={filterItems._id} className="col-12 col-md-6 col-lg-3">
+                          <Card></Card>
+                        </div>
+                      )
+                    }
+                    ) : <div>No such data found</div>}
+              </div>
+              )
+            })
+            : <div>"""""""""""""""'</div>
+        }
       </div>
 
       <div><Footer /></div>
